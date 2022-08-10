@@ -6,31 +6,25 @@
     top: 1431px;
 }
 
-.catalog{
+.catalog {
     position: absolute;
     width: 237px;
     height: 80px;
     left: 202px;
     top: 150px;
-    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 133.9%;
-    /* or 80px */
-    
     text-align: center;
-    
-    /* Txt/100 */
-    
     color: #0F172E;
 }
 
-.catalog-logo{
+.catalog-logo {
     position: absolute;
-width: 746px;
-height: 852px;
-left: 48px;
-top: 295px;
+    width: 746px;
+    height: 852px;
+    left: 48px;
+    top: 295px;
 }
