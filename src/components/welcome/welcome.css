@@ -1,0 +1,106 @@
+.first-row {
+    position: absolute;
+    width: 1919px;
+    height: 601px;
+    left: 0px;
+    top: 101px;
+}
+
+.welcome-logo {
+    position: absolute;
+    width: 666.88px;
+    height: 471px;
+    left: 202px;
+    top: 130px;
+}
+
+.welcome-words {
+    position: absolute;
+    width: 278.37px;
+    height: 36px;
+    left: 971.01px;
+    top: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0F172E;
+}
+
+.welcome-words1 {
+    position: absolute;
+    width: 152.2px;
+    height: 36px;
+    left: 1258.41px;
+    top: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0F172E;
+}
+
+.slogan {
+    position: absolute;
+    width: 746.99px;
+    height: 188px;
+    right: 201px;
+    top: 158px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    color: #0F172E;
+}
+
+.order-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 142px;
+    gap: 10px;
+    position: absolute;
+    width: 438.58px;
+    height: 64px;
+    right: 508.42px;
+    top: 463px;
+    background: #3A7540;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FAFAFA;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.steps {
+    position: absolute;
+    width: 1919px;
+    height: 718px;
+    left: 1px;
+    top: 713px;
+}
+
+.welcome-steps img {
+    position: absolute;
+    width: 763.59px;
+    height: 510.12px;
+    left: 202px;
+    top: 182px;
+}
+
+.welcome-tent img {
+    position: absolute;
+    width: 852px;
+    height: 579px;
+    right: 44px;
+    top: calc(50% - 579px/2 + 69.5px);
+}
