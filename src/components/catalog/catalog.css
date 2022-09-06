@@ -28,3 +28,140 @@
     left: 48px;
     top: 295px;
 }
+
+.tent {
+    position: absolute;
+    width: 284px;
+    height: 306.98px;
+    left: 817px;
+    top: 381px;
+}
+
+.tent-text {
+    position: absolute;
+    left: 44.28%;
+    right: 44.28%;
+    top: 56.24%;
+    bottom: 41.62%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0F172E;
+}
+
+.bags {
+    position: absolute;
+    width: 274px;
+    height: 181px;
+    left: 1135px;
+    top: 408px;
+}
+
+.bags-text {
+    position: absolute;
+    width: 245px;
+    height: 44px;
+    left: 1145px;
+    top: 623px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F172E;
+}
+
+.chair {
+    position: absolute;
+    width: 250px;
+    height: 184px;
+    left: 1451px;
+    top: 413px;
+}
+
+.chair-text {
+    position: absolute;
+    width: 245px;
+    height: 22px;
+    left: 1455px;
+    top: 645px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F172E;
+}
+
+.BBQ {
+    position: absolute;
+    width: 203px;
+    height: 189px;
+    left: 858px;
+    top: 810px;
+}
+
+.BBQ-text {
+    position: absolute;
+    width: 244.14px;
+    height: 22px;
+    left: 833px;
+    top: 1034px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F172E;
+}
+
+.axe {
+    position: absolute;
+    width: 218px;
+    height: 191px;
+    left: 1160px;
+    top: 807px;
+}
+
+.axe-text {
+    position: absolute;
+    width: 245px;
+    height: 22px;
+    left: 1146px;
+    top: 1034px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F172E;
+}
+
+.boat {
+    position: absolute;
+    width: 252px;
+    height: 219px;
+    left: 1452px;
+    top: 796px;
+}
+
+.boat-text {
+    position: absolute;
+    width: 245px;
+    height: 22px;
+    left: 1455px;
+    top: 1034px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F172E;
+}

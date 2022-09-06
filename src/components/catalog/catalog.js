@@ -16,7 +16,26 @@ function Catalog() {
                     <img className="catalog-logo" src={catalog_main} alt="prp" />
                 </span>
                 <span>
-
+                    <div>
+                        <span>
+                            <img className="tent" src={tent} alt="prp" />
+                            <text className='tent-text'>Палатки, шатры, тенты</text>
+                            <img className="bags" src={bags} alt="prp" />
+                            <text className='bags-text'>Спальные мешки и матрасы</text>
+                            <img className="chair" src={chair} alt="prp" />
+                            <text className='chair-text'>Туристическая мебель</text>
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            <img className="BBQ" src={BBQ} alt="prp" />
+                            <text className='BBQ-text'>Мангалы и казаны</text>
+                            <img className="axe" src={axe} alt="prp" />
+                            <text className='axe-text'>Инструменты</text>
+                            <img className="boat" src={boat} alt="prp" />
+                            <text className='boat-text'>Прочее</text>
+                        </span>
+                    </div>
                 </span>
             </div>
         </div>
