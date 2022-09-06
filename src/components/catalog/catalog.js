@@ -8,6 +8,11 @@ import boat from '../../resources/boat.svg';
 import tent from '../../resources/tent.svg';
 
 function Catalog() {
+
+    function refreshPage() {
+        console.log("Go to the bucket")
+    }
+
     return (
         <div className='catalog-main'>
             <div className='catalog' >Каталог</div>
@@ -17,8 +22,8 @@ function Catalog() {
                 </span>
                 <span>
                     <div>
-                        <span>
-                            <img className="tent" src={tent} alt="prp" />
+                        <span className='catalog-buttons'>
+                            <a className="tent-image " onClick={refreshPage} href="/#"><img  src={tent} alt="prp" /></a>
                             <text className='tent-text'>Палатки, шатры, тенты</text>
                             <img className="bags" src={bags} alt="prp" />
                             <text className='bags-text'>Спальные мешки и матрасы</text>

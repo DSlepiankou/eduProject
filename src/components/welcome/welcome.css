@@ -56,7 +56,7 @@
     color: #0F172E;
 }
 
-.order-button {
+.order {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,6 +78,12 @@
     text-align: center;
     color: #FAFAFA;
     border-color: transparent;
+    cursor: pointer;
+}
+
+.order-button button:hover {
+    background-color: #0f2511;
+    border-radius: 10px;
     cursor: pointer;
 }
 

@@ -31,10 +31,10 @@ function Header() {
     }
 
     return (
-        <div>
+        <div className='main-header'>
             <div className="header d-flex">
             </div>
-            <a className="logo" onClick={refreshPage} href="/#"><img src={banner} alt="prp" /></a>
+            <button className="logo" onClick={refreshPage} href="/#"><img src={banner} alt="prp" /></button>
 
             <span className='telephones'>
                 <div>8 (029) 937-54-00</div>

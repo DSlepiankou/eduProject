@@ -29,12 +29,13 @@
     top: 295px;
 }
 
-.tent {
+.tent-image {
     position: absolute;
     width: 284px;
     height: 306.98px;
     left: 817px;
     top: 381px;
+    display: inherit;
 }
 
 .tent-text {
@@ -164,4 +165,10 @@
     line-height: 28px;
     text-align: center;
     color: #0F172E;
+}
+
+.catalog-buttons a:hover {
+    background-color: #FF5656;
+    border-radius: 10px;
+    cursor: pointer;
 }

@@ -26,8 +26,8 @@ function Welcome() {
                             Вдохновляющая любовь к природе
                         </p>
                     </span>
-                    <span>
-                        <button className='order-button' onClick={() => OrderReCall()} href="/#">заказать звонок</button>
+                    <span className='order-button'>
+                        <button className='order' onClick={() => OrderReCall()} href="/#">заказать звонок</button>
                     </span>
                 </span>
             </div>

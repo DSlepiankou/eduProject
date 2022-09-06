@@ -1,8 +1,16 @@
+.main-header {
+    position: absolute;
+    width: 1920px;
+    height: 98.95px;
+    left: 0px;
+    top: 0.03px;
+}
+
 .header {
     position: fixed;
     width: 1920px;
     height: 98.95px;
-    left: calc(50% - 1920px/2);
+    left: 0px;
     top: 0.03px;
     background: #3A7540;
     opacity: 0.5;
@@ -13,7 +21,7 @@
     position: fixed;
     width: 129.93px;
     height: 32.98px;
-    left: calc(50% - 129.93px/2 - 847.06px);
+    left: 47.97px;
     top: 34.01px;
     background-blend-mode: initial;
     background-color: transparent;
