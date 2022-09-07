@@ -8,7 +8,7 @@ function App() {
             <Header />
             <div>
                 <Welcome />
-                <Catalog/>
+                <Catalog />
             </div>
         </div>
     );

@@ -3,7 +3,7 @@
     width: 1919px;
     height: 1145px;
     left: 1px;
-    top: 1431px;
+    top: 1380px;
 }
 
 .catalog {
@@ -36,138 +36,136 @@
     left: 817px;
     top: 381px;
     display: inherit;
+    border-color: transparent;
+    background: #FAFAFA;
+
 }
 
 .tent-text {
-    position: absolute;
-    left: 44.28%;
-    right: 44.28%;
-    top: 56.24%;
-    bottom: 41.62%;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: #0F172E;
+    top: 30px;
 }
 
-.bags {
+.bags-image {
     position: absolute;
     width: 274px;
-    height: 181px;
+    height: 306.98px;
     left: 1135px;
-    top: 408px;
+    top: 381px;
+    display: inherit;
+    border-color: transparent;
+    background: #FAFAFA;
 }
 
 .bags-text {
-    position: absolute;
-    width: 245px;
-    height: 44px;
-    left: 1145px;
-    top: 623px;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #0F172E;
+    top: 20px;
 }
 
-.chair {
+.chair-image {
     position: absolute;
-    width: 250px;
-    height: 184px;
-    left: 1451px;
-    top: 413px;
+    width: 284px;
+    height: 306.98px;
+    left: 1434px;
+    top: 381px;
+    display: inherit;
+    border-color: transparent;
+    background: #FAFAFA;
 }
 
 .chair-text {
-    position: absolute;
-    width: 245px;
-    height: 22px;
-    left: 1455px;
-    top: 645px;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #0F172E;
+    top: 20px;
 }
 
-.BBQ {
+.BBQ-image {
     position: absolute;
-    width: 203px;
-    height: 189px;
-    left: 858px;
-    top: 810px;
+    width: 284px;
+    height: 306.98px;
+    left: 817px;
+    top: 770px;
+    border-color: transparent;
+    background: #FAFAFA;
 }
 
 .BBQ-text {
-    position: absolute;
-    width: 244.14px;
-    height: 22px;
-    left: 833px;
-    top: 1034px;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #0F172E;
+    top: 20px
 }
 
-.axe {
+.axe-image {
     position: absolute;
-    width: 218px;
-    height: 191px;
-    left: 1160px;
-    top: 807px;
+    width: 284px;
+    height: 306.98px;
+    left: 1127px;
+    top: 770px;
+    border-color: transparent;
+    background: #FAFAFA;
 }
 
 .axe-text {
-    position: absolute;
-    width: 245px;
-    height: 22px;
-    left: 1146px;
-    top: 1034px;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #0F172E;
+    top: 20px;
 }
 
-.boat {
+.boat-image {
     position: absolute;
-    width: 252px;
-    height: 219px;
-    left: 1452px;
-    top: 796px;
+    width: 284px;
+    height: 306.98px;
+    left: 1434px;
+    top: 770px;
+    border-color: transparent;
+    background: #FAFAFA;
 }
 
 .boat-text {
-    position: absolute;
-    width: 245px;
-    height: 22px;
-    left: 1455px;
-    top: 1034px;
+    position: relative;
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #0F172E;
+    top: 7px;
 }
 
-.catalog-buttons a:hover {
+.catalog-buttons button:hover {
     background-color: #FF5656;
     border-radius: 10px;
     cursor: pointer;

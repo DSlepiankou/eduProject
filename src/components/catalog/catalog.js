@@ -20,25 +20,39 @@ function Catalog() {
                 <span>
                     <img className="catalog-logo" src={catalog_main} alt="prp" />
                 </span>
-                <span>
-                    <div>
-                        <span className='catalog-buttons'>
-                            <a className="tent-image " onClick={refreshPage} href="/#"><img  src={tent} alt="prp" /></a>
-                            <text className='tent-text'>Палатки, шатры, тенты</text>
-                            <img className="bags" src={bags} alt="prp" />
-                            <text className='bags-text'>Спальные мешки и матрасы</text>
-                            <img className="chair" src={chair} alt="prp" />
-                            <text className='chair-text'>Туристическая мебель</text>
+                <span className='catalog-buttons'>
+                    <div >
+                        <span >
+                            <button className="tent-image" onClick={refreshPage} href="/#">
+                                <img src={tent} alt="prp" />
+                                <span className='tent-text'>Палатки, шатры, тенты</span>
+                            </button>
+
+                            <button className="bags-image" onClick={refreshPage} href="/#">
+                                <img src={bags} alt="prp" />
+                                <span className='bags-text'>Спальные мешки и матрасы</span>
+                            </button>
+
+                            <button className="chair-image" onClick={refreshPage} href="/#">
+                                <img src={chair} alt="prp" />
+                                <span className='chair-text'>Туристическая мебель</span>
+                            </button>
                         </span>
                     </div>
                     <div>
                         <span>
-                            <img className="BBQ" src={BBQ} alt="prp" />
-                            <text className='BBQ-text'>Мангалы и казаны</text>
-                            <img className="axe" src={axe} alt="prp" />
-                            <text className='axe-text'>Инструменты</text>
-                            <img className="boat" src={boat} alt="prp" />
-                            <text className='boat-text'>Прочее</text>
+                            <button className="BBQ-image" onClick={refreshPage} href="/#">
+                                <img src={BBQ} alt="prp" />
+                                <span className='BBQ-text'>Мангалы и казаны</span>
+                            </button>
+                            <button className='axe-image' onClick={refreshPage} href="/#">
+                                <img src={axe} alt="prp" />
+                                <span className='axe-text'>Инструменты</span>
+                            </button>
+                            <button className='boat-image' onClick={refreshPage} href="/#">
+                                <img src={boat} alt="prp" />
+                                <span className='boat-text'>Прочее</span>
+                            </button>
                         </span>
                     </div>
                 </span>
